@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.scaunois</groupId>
@@ -12,11 +14,29 @@
 		<url>https://github.com/scaunois/common</url>
 		<connection>scm:git:git://github.com/scaunois/common.git</connection>
 		<developerConnection>scm:git:git@github.com:scaunois/common.git</developerConnection>
-	  <tag>common-1.0.0</tag>
-  </scm>
+		<tag>common-1.0.0</tag>
+	</scm>
 
 	<dependencies>
 		<!-- ZERO dépendance pour le moment ;-) -->
 	</dependencies>
+
+	<build>
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-scm-plugin</artifactId>
+				<version>1.11.1</version>
+				<configuration>
+					<username>scaunois</username>
+					<password>nana94**</password>
+				</configuration>
+			</plugin>
+
+		</plugins>
+
+	</build>
 
 </project>
