@@ -9,7 +9,7 @@
 
 	<scm>
 		<url>https://github.com/scaunois/common</url>
-		<connection>scm:git:git://github.com/scaunois/common.git</connection>
+		<connection>scm:git:git@github.com:scaunois/common.git</connection>
 		<developerConnection>scm:git:git@github.com:scaunois/common.git</developerConnection>
 	  <tag>common-1.0.0</tag>
   </scm>
